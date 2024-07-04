@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+
+.login-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10%;
+}
+
+.login-image {
+  height: 400px;
+  width: 800px;
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 80px;
+  width: 400px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.input-label {
+  font-weight: bold;
+  color: #475569;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.input-filed {
+  padding-left: 10px;
+  height: 30px;
+  width: 200px;
+}
+
+.login-button {
+  color: #fff;
+  font-family: Roboto;
+  font-weight: bold;
+  margin-top: 15px;
+  height: 30px;
+  background-color: #0b69ff;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+   outline: none;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-family: Roboto;
+  font-weight: bold;
+}

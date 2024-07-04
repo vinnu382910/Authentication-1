@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+.header-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 70px;
+}
+
+.logo {
+  width: 150px;
+  height: 40px;
+}
+
+.list-cont {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.para {
+  font-family: roboto;
+  font-weight: bold;
+  color: #64748b;
+  margin-left: 10px;
+}
+
+.logout-btn {
+  background-color: #0967d2;
+  margin-left: 20px;
+  border-color: transparent;
+  color: #fff;
+  text-align: centers;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+}
